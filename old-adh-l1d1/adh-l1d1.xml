@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 1</title>
+        <author>Alexander de Hales</author>
+        <editor><!-- editor --></editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.02">
+          <title>Librum I, Distinctio 1</title>
+          <date when="2015-12-05">December 05, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>LombardPress</publisher>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2015-12-05">December 05, 2015</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="lon">London, British Museum Royal 10 A I</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-02-19" who="#" status="draft" n="2015.02">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="adh-l1d1">
+        <head><supplied>Librum, Distinctio 1</supplied></head>
+        <div n="1" type="textpart" subtype="paragraphus">
+          <p><lb/><quote type="lemma" source="14, 6">Veteris ac Novae Legis</quote>. Cum summa perfectio con<lb break="no"/>sistat 
+            in beatitudine, dividitur hoc totale opus completum se<lb break="no"/>cundum ea quae faciunt ad beatitudinem. Primus liber agit de
+            <lb/>beatificante; secundus de beatificabili et suo opposito; tertius
+            <lb/>agit de dispositionibus remotis quae ducunt in beatitudinem;
+            <lb/>quartus de dispositionibus propinquis, <pb n="155c" ed="#L"/> scilicet de sacramentis.
+            <lb/>Gratia enim praeceptorum et virtutum, de quibus agitur in tertio
+            <lb/>libro, remotius se habet ad beatitudinem quam gratia sacra<lb break="no"/>mentalis: illa enim in Lege rumphaeam non amovit, haec autem
+            <lb/>reseravit ianuam paradisi. — Sunt autem huius primae partis
+            <lb/>primi libri partes tres, secundum triplex genus rerum, scilicet
+            <lb/>rerum quibus est fruendum et utendum, et quae fruuntur et
+            <lb/>utuntur, et per quas fruuntur. Primo igitur determinat quid frui,
+            <lb/>quid uti; deinde, quibus est fruendum et utendum; deinde, quae
+            <lb/>sint res quae frui et uti debent; ultimo, per quas res est fruendum.
+          </p>
+        </div>
+        <div n="2" type="textpart" subtype="paragraphus">
+          <p><lb/><quote type="lemma" source="14, 10">Omnis doctrina circa res vel signa</quote>. Quid sit signum,
+            <lb/>definitur in principio quarti. Vel aliter: Signum est quod se
+            <pb n="8"/><lb/>offert sensui, aliud derelinquens intellectui. — Sed opponitur
+            <lb/>de corpore Christi, quod est res et signum; non ergo omnis
+            <lb/>speculatio theologica circa res vel signa. — Respondeo: haec
+            <lb/>coniunctio <mentioned>vel</mentioned> tenetur subdisiunctive. Unde fit hic divisio se<lb break="no"/>cundum rationes oppositas, non secundum res. Signum enim pro<lb break="no"/>prie in notitia est, res secundum naturam. In tertio autem libro
+            <lb/>agit de corpore Christi ut res est, in quarto ut est signum.
+          </p>
+        </div>
+        <div n="3" type="textpart" subtype="paragraphus">
+          <p><lb/><quote type="lemma" source="14, 14">Usus in significando, non in iustifleando</quote>. Circumcisio
+            <lb/>enim, licet <pb n="1d" ed="#A"/> originale peccatum delevit, non tamen contulit gratiam
+            <lb/>ad bene operandum. Unde sacramenta Veteris Legis faciebant
+            <lb/>solum declinare a malo, non facere bonum.
+          </p>
+        </div>
+        <div n="4" type="textpart" subtype="paragraphus">
+          <p><lb/><quote type="lemma" source="15, 8">Res</quote> aliae <quote type="lemma">sunt quibus fruendum</quote>. Et quaeritur utrum
+            <lb/>beatitudine creata fruendum sit. Quod videtur, quia beatitudo
+            <lb/>beatum facit, et omni tali est fruendum <quote type="biblia">.</quote> — Contra: beatitudo
+            <lb/>creata semper ad increatam referenda est; ergo, per definitionem
+            <lb/>eius quod est <mentioned>uti</mentioned>, utendum est ea. — Respondeo: quod
+            <lb/>est frui dicitur multipliciter: vel formaliter, ut fruimur fruitione;
+            <lb/>vel quasi materialiter, ut fruimur virtutibus, quia virtutes sunt
+            <lb/>dispositio materialis per quam fruimur beatitudine: vel ut ter<lb break="no"/>mino, et sic fruimur beatitudine creata; vel ut fine, et sic in<lb break="no"/>creata. Et quia terminus refertur ad finem, etiam ipsius bea<lb break="no"/>titudinis creatae quoad hoc est usus. Virtutes etiam habent aliam
+            <lb/>comparationem a praedicta ad frui, de qua infra dicetur.
+          </p>
+        </div>
+        <div n="5" type="textpart" subtype="paragraphus">
+          <p><lb/><quote type="lemma" source="15, 13">Res quae fruuntur inter utrasque sunt</quote>. Ergo virtus
+            <lb/>est inferior rationali creatura, cum res utens et fruens medium
+            <lb/>sit inter beatitudinem et virtutem qua utitur. — Contra: ut
+            <pb n="9"/>
+            <lb/>habetur <pb n="2r" ed="#E"/> in <bibl>secundo libro, dicit <name>Augustinus</name></bibl>: <quote>Virtutes,
+              <lb/>quibus recte vivitur, magna bona sunt; potentiae, sine quibus
+              <lb/>recte vivi non potest, media bona sunt; species quorumlibet
+              <lb/>corporum, sine quibus recte vivi potest, minima bona sunt</quote>.
+            <lb/>Ergo, cum homo cadat in ordine bonorum mediorum, propter
+            <lb/>hoc quod sine ipso recte vivi non potest, erit infra virtutes et
+            <lb/>non supra. — Respondeo: virtutes sunt dispositio media in<lb break="no"/>ter fruentem et quo fruitur; et propter hoc bene dicuntur ab
+            <lb/>Augustino, in libro <quote type="biblia">De libero arbitrio</quote>, <mentioned>magna bona</mentioned>,
+            <lb/>maiora quam ipsae potentiae. Neque aestimo hominem conti<lb break="no"/>neri in aliquo illorum trium membrorum, sicut ibi exponitur.
+            <lb/>Cum autem dicitur hic quod sunt media bona illae res <mentioned>quae
+              <lb/>fruuntur et quae utuntur</mentioned> inter res <mentioned>quibus fruuntur</mentioned> et <mentioned>quibus
+              <lb/>utuntur</mentioned>, non aestimo ibi numerari nisi res per se subsisten<lb break="no"/>tes, scilicet Deum quo est frui, et homines et angelos in medio,
+            <lb/>et alias creaturas in ultimo.
+          </p>
+        </div>
+        <div n="6" type="textpart" subtype="paragraphus">
+          <p><lb/><quote type="lemma" source="15, 15">Frui autem est amore inhaerere alicui rei propter se</quote>.
+            <lb/>Ponitur <mentioned>amor</mentioned> hic pro amore ex parte inhaerentis. Quod autem
+            <lb/>sequitur est in ratione finis, scilicet <mentioned>alicui rei propter se</mentioned>. Sed
+            <lb/>cum fidei succedat cognitio et spei comprehensio, male ponitur
+            <lb/>solum amor caritatis in definitione eius quod est <mentioned>frui</mentioned>, cum
+            <pb n="10"/>
+            <lb/>secundum omnes est fruitio. — Respondeo: ut dicit Augu<lb break="no"/>stinus in libro <quote type="biblia">De moribus ecclesiae</quote>, amor communis est ad
+            <lb/>quatuor virtutes cardinales, multo fortius ad theologicas. Unde et
+            <lb/>comprehendit amorem summae veritatis, qui est fidei, et amorem
+            <lb/>beatitudinis exspectatae, qui est spei, et amorem summi boni".
+          </p>
+        </div>
+        <div n="7" type="textpart" subtype="paragraphus">
+          <p><lb/>Item, <quote>frui est amore inhaerere</quote> etc. Inhaerere autem
+            <lb/>propter se non est nisi beatitudini creatae vel increatae. Ergo
+            <lb/>iis est frui solum. — Contra: amor pars est beatitudinis;
+            <lb/>ergo amore illo est fruendum. — Respondeo: cum dicitur
+            <lb/><said>amore est alicui rei inhaerendum</said>, illud cui est inhaerendum
+            <lb/>tamquam alii amore, est solum Deus. Amor enim in patria <pb n="2a" ed="#A"/> non
+            <lb/>est diversum a beatitudine creata. Et cum dicitur quod <said>inhae<lb break="no"/>rendum est amori in patria propter se</said>, haec praepositio <mentioned>prop<lb break="no"/>ter</mentioned> non notat finem, sed terminum, sicut cum dicitur <said>fruendum
+              <lb/>est beatitudine</said>.
+          </p>
+        </div>
+        <div n="8" type="textpart" subtype="paragraphus">
+          <p><lb/>Item, quaeritur utrum peccato quis possit frui. Et videtur
+            <lb/>quod sic, <bibl>7 Matth.<supplied reason="explanation">, 2</supplied></bibl>: <quote type="biblia">In qua mensura mensi</quote> etc., Glossa:
+            <lb/><quote>Qui aeternaliter peccato perfrui volunt, aeternam poenam inve<lb break="no"/>nient, et quorum voluntas non habuit finem peccandi, non ha<lb break="no"/>bebit finem torquendi</quote>; <pb n="155d" ed="#L"/> ergo prima. — Respondeo: mali de<lb break="no"/>lectatione peccati fruuntur, non ut est malum, quia sic non est
+            <lb/>delectabile, et hoc non est frui simpliciter. Unde <name>Augustinus</name>,
+            <lb/>libro <title ref="#deDiversisQuaestionibus">83 Quaestionum</title>: <quote>Omnis humana perversio est frui
+              <lb/>utendis vel uti fruendis</quote>.
+          </p>
+        </div>
+        <pb n="11"/>
+        <div n="9" type="textpart" subtype="paragraphus">
+          <p><lb/>Item, in via est frui spe, ut invenitur in multis locis;
+            <lb/>non tamen spe inhaeremus propter se; ergo male definitur frui.
+            <lb/>— Respondeo: in via adhaeremus, non inhaeremus, quia pro<lb break="no"/>pinqui sumus termino, sed non sumus in termino, quod est
+            <lb/>inhaerere. Et quia amor <quote type="biblia">non excidit</quote>, immo comitatur in ter<lb break="no"/>mino, inhaeremus amore; et hoc est simpliciter frui. Spes autem
+            <lb/>excidit et comitatur viam; ideo spe adhaeremus, et hoc non est
+            <lb/>simpliciter frui. Unde in via utimur simpliciter et fruimur se<lb break="no"/>cundum quid.
+          </p>
+        </div>
+        <div n="10" type="textpart" subtype="paragraphus">
+          <p><lb/>Item, notandum quod in quibus est proprie appetitus,
+            <lb/>in illis est frui. Appetitus autem tripliciter est: est enim in ha<lb break="no"/>bentibus vegetationem et in habentibus sensum et in habentibus
+            <lb/>rationem. Et habens rationem potest esse dupliciter: vel rectam
+            <lb/>vel perversam. Rectam adhuc dupliciter: vel ut in termino vel iuxta
+            <lb/>terminum. In quibus autem est appetitus, in illis est et delectatio;
+            <lb/>in quibus autem delectatio, et amor; et sic amore inhaerere est
+            <lb/>frui aliquo modo communiter dictum et secundum prius et po<lb break="no"/>sterius in omnibus iis, sed proprie in rationalibus creaturis, minus
+            <lb/>proprie in aliis. Unde dicit <name ref="#Augustine">Augustinus</name> quod pecora et ani<lb break="no"/>mantia fruuntur cibis. Ut ratio recta est in via, fruimur spe; ut
+            <lb/>est in termino, fruimur simpliciter.
+          </p>
+        </div>
+        <div n="11" type="textpart" subtype="paragraphus">
+          <p><lb/><quote type="lemma" source="15,16">Uti autem est id quod in usum venerit referre ad obtinendum
+              <lb/>illud quo fruendum est</quote>. Contra: <mentioned>usus</mentioned> ponitur in defi<lb break="no"/>nitione <mentioned>uti</mentioned>; ergo idem per se definitur. — Respondeo: <mentioned>id
+              <lb/>quod in usum venerit</mentioned> sumitur pro re utibili, quae bene potest
+            <lb/>venire in definitionem <mentioned>uti</mentioned>, quia actus definitur per rem ordi<pb n="12"/><lb break="no"/>natam ad actum. Sed hoc non sufficit ad definitionem, sed si illa
+            <lb/>res referatur ad finem, per quem actus ille notitiam sumit. Uti<lb break="no"/>bile enim, ad finem relatum, est principium definiendi <mentioned>uti</mentioned>.
+          </p>
+        </div>
+        <div n="12" type="textpart" subtype="paragraphus">
+          <p><lb/>Item, cum dicat <mentioned>referre ad obtinendum</mentioned>, ergo nulla
+            <lb/>actio est indifferens, cum omni actione utamur et quod refertur
+            <lb/>ad id quo fruendum est, est meritorium. Unde ad Corinthios: <quote type="biblia">Sive
+              <lb/>manducatis sive bibitis, omnia ad gloriam Dei facite</quote>, <bibl>I Cor. 10,31</bibl>.
+            <lb/>— Respondeo: referendum est habitu et non actu, scilicet ut
+            <lb/>ipsum opus in se sit ordinatum. Sed licet ipsum opus in se sit
+            <lb/>ordinatum, nihilominus est indifferens, quia non informatur gratia
+            <lb/>et intentione referente in summum bonum habitu vel actu.
+          </p>
+        </div>
+        <div n="13" type="textpart" subtype="paragraphus">
+          <p><lb/>Item, quaeritur utrum malo sit utendum. Et videtur hoc,
+            <lb/>ratione illius partis definitionis <mentioned>quod venerit in usum</mentioned>. — Con<lb break="no"/>tra: avertit a summo bono; ergo non potest referri ad id quo
+            <lb/>fruendum est. —Respondeo: malo poenae contingit uti, non
+            <lb/>malo culpae. Id autem quod dicitur, <mentioned>quod in usum venerit</mentioned>,
+            <lb/>non est tota ratio <mentioned>uti</mentioned>.
+          </p>
+        </div>
+        <div n="14" type="textpart" subtype="paragraphus">
+          <p><lb/><quote type="lemma" source="15,19">Res quibus fruendum est</quote>.<seg n="a" type="nota">Sed tales sunt <pb n="2b" ed="#A"/> tres, et
+              <lb/>fuerunt ab aeterno; ergo tres res fruibiles fuerunt ab aeterno.
+              <lb/>— Contra: dicit Damascenus: <quote>Tres personae re con<lb break="no"/>veniunt et ratione distinguuntur</quote>. <pb n="2v" ed="#E"/> Ergo non sunt tres res quibus
+              <lb/>est fruendum.</seg></p>
+          <p>
+            <lb/>
+            <seg n="b" type="nota">Item, nihil est commune ad essentiam et personas et
+              <lb/>creaturas; ergo <mentioned>res</mentioned> non est commune.</seg>
+          </p>
+          <p><lb/><seg n="c" type="nota">Item, fruendum est tribus personis: aut ergo ut Deus,
+              <lb/>aut ut sunt personae. Si ut Deus, ergo, cum solum sit unus</seg><pb n="13"/><lb/>Deus, erit solum una res qua fruendum. Si ut personae, ergo,
+            <lb/>cum tres sint personae, erunt tres motus simul et semel in ipsas.
+          </p>
+          <p>
+            <lb/>
+            <seg n="d" type="nota">Item, sicut in ordine essentiarum est summa essentia,
+              <lb/>qua solum est fruendum propter se, ita in ordine personarum
+              <lb/>est prima persona auctoritate et natura. Ergo, cum frui respicit
+              <lb/>id solum quod primum est, erit solum fruendum Patre. — Con<lb break="no"/>tra: dicit <name>Augustinus</name> in littera quod <quote>fruimur cognitis</quote>;
+              <lb/>ergo, cum sit cognitio Patris et Filii et Spiritus Sancti, et fruitio.</seg>
+          </p>
+          <p>
+            <lb/>
+            <seg n="e" type="nota">Item, <quote>frui est amore inhaerere</quote> etc., et amor, ut dictum
+              <lb/>est , sumitur hic communiter. Sed fides distinguit personas se<lb break="no"/>cundum articulos, caritas non distinguit. Ergo amor communis
+              <lb/>ratione unius distinguere debet, ratione alterius non distinguere.</seg>
+          </p>
+          <p>
+            <lb/>
+            <seg n="f" type="nota">Respondeo: ad primum, persona medium est secundum
+              <lb/>intelligentiam inter notionem et essentiam, quibus tria aptantur:
+              <lb/><mentioned>quis</mentioned>, quod est personale, <mentioned>quae</mentioned> notionale, <mentioned>quid</mentioned> essentiale.
+              <lb/>Essentia res est; notiones sunt rationes distinguentes; persona,
+              <lb/>quae in intelligendo medium est, respectu notionum est res,
+              <lb/>respectu essentiae est ratio. Et sic tres res ab aeterno fuerunt.
+              <lb/>Cum ergo dicitur <mentioned>tres res</mentioned>, ternarius vel trinitas cadit ibi ra<lb break="no"/>tione notionalium rationum; <mentioned>res</mentioned> ratione essentiae. Et sic non
+              <lb/>valet praedictum argumentum.</seg>
+          </p>
+          <p><lb/><seg n="g" type="nota">Ad aliud dicendum: nihil est commune ad Creatorem et
+              <lb/>creaturam genere, specie vel numero. Sed commune potest esse
+              <lb/>quia comparantur ad aliquid unum, vel quod idem est cum al<lb break="no"/>tero extremorum vel non: ut cum iustitia creata et increata ad</seg><pb n="14"/><lb/>consimilem effectum comparantur, <pb n="156a" ed="#L"/> ut in homine et Deo, et ef<lb break="no"/>fectus non est idem cum aliquo extremorum. Vel potest compa<lb break="no"/>rari ad unum quod idem sit cum altero, ut cum dicitur <mentioned>homo
+              <lb/>bonus</mentioned>, <mentioned>Deus bonus</mentioned>: <supplied reason="omitted">dicitur Deus bonus</supplied> bonitate qua ipse
+            <lb/>est, homo bonus relatione ad illam bonitatem quae est Deus.
+            <lb/>Et sic res dicitur commune. Divina enim essentia est res se ipsa;
+            <lb/>tres personae sunt res propter essentiam; creatura res in rela<lb break="no"/>tione ad illam.
+          </p>
+          <p>
+            <lb/>
+            <seg n="h" type="nota">Ad tertium dicendum quod frui respicit amorem veritatis
+              <lb/>et bonitatis et beatitudinis exspectatae. Et quoad hoc sunt tres
+              <lb/>res quibus est fruendum: Pater, cui appropriatur aeternitas; Fi<lb break="no"/>lius, cui veritas; Spiritus Sanctus, cui bonitas. Non tamen ve<lb break="no"/>ritas, aeternitas et bonitas sunt tres res. Nec concedendum est
+              <lb/>quod tres res fruibiles sunt, licet tres res sint quibus est fruen<lb break="no"/>dum; in quantum autem ad caritatem refertur, una.</seg>
+          </p>
+          <p>
+            <lb/>
+            <seg n="i" type="nota">Ad quartum dicendum: duae notiones sunt in Patre: una
+              <lb/>qua refertur ad Filium, scilicet paternitas, et alia qua non refertur,
+              <lb/>scilicet innascibilitas. Et propter primam Filio fruimur, una scilicet
+              <lb/>fruitione in Patre propter relationem .</seg>
+          </p>
+          <p>
+            <lb/>
+            <seg n="k" type="nota">Ad ultimum dicendum quod non sunt ibi tres motus vel
+              <lb/>actiones, immo una sola, propter unitatem essentiae, cuius est
+              <lb/>amor.</seg>
+          </p>
+          <p>
+            <lb/>
+            <seg n="l" type="nota">Ad id autem quod obicitur, dicendum est quod principio
+              <lb/>fruendum est <mentioned>tantum</mentioned> in ordine essentiarum, non in ordine
+              <lb/>personarum <pb n="2c" ed="#A"/> <mentioned>tantum</mentioned>. Et non sequitur, si alia sit cognitio
+              <lb/>Patris etc., quod alia sit fruitio, quia cognitio personas distin<pb n="15" break="no"/><lb break="no"/>guit; fruitio vero, quae est affectus, non distinguit, licet habeat
+              <lb/>in se amorem veritatis ratione fidei: nam quoad hoc etiam una
+              <lb/>fruitio, quia una veritas amata.</seg>
+          </p>
+        </div>
+        <div n="15" type="textpart" subtype="paragraphus">
+          <p><lb/><quote type="lemma" source="15, 31">Fruendum est rebus quae aeternae et incommutabiles sunt.</quote>.
+            <lb/>Ergo fruendum est angelis. — Respondeo: ut dicit
+            <lb/><bibl><name>Augustinus</name> in libro <title>De natura summi boni</title></bibl>, <quote>solus Deus in<lb break="no"/>commutabilis est; quae autem fecit, quia ex nihilo, mutabilia sunt</quote>.
+            <lb/><quote>Moventur autem spiritus iniquitate et corporis mortalitate</quote>.
+          </p>
+        </div>
+        <div n="16" type="textpart" subtype="paragraphus">
+          <p><lb/><quote type="lemma" source="16, 1">Fruimur cognitis, in quibus ipsa voluntas delectata conquiescit</quote>.
+            <lb/>Ponuntur autem tres definitiones eius quod est <mentioned>frui</mentioned>,
+            <lb/>propter tria quae sunt ex parte eius qui fruitur, et propter tres
+            <lb/>rationes ex parte eius quo fruitur. Nam ex parte eius qui fruitur,
+            <lb/>accipitur ipsa anima cuius est potentia, et ipsa potentia, et iterum
+            <lb/>ipsa ut inclinatur in finem et dicitur voluntas. <mentioned>Amore inhaerere</mentioned><lb/>pertinet ad animam, <mentioned>uti cum gaudio</mentioned> ad potentiam, <mentioned>quibus
+              <lb/>cognitis</mentioned> etc. ad voluntatem. — Praeterea, est frui beatitudine
+            <lb/>creata, et secundum hoc recte sumitur haec definitio <mentioned>uti cum
+              <lb/>gaudio</mentioned>; est frui personis increatis, et sic sumitur illa <mentioned>quibus
+              <lb/>cognitis</mentioned>etc.; est frui Deo, et secundum hoc <mentioned>amore inhaerere</mentioned>.
+            <lb/>— Magister videtur aliter distinguere, ut <mentioned>amore</mentioned> etc. sit
+            <lb/>frui etiam in via, <mentioned>uti cum gaudio</mentioned> ad beatitudinem creatam,
+            <lb/>tertia vero ad aeternum bonum, in quo omnino est quies et
+            <lb/>summum, referatur etc.
+          </p>
+        </div>
+        <div n="17" type="textpart" subtype="paragraphus">
+          <p><lb/><quote type="lemma" source="16, 6">Notandum</quote>. <quote type="lemma" source="16, 8">Frui autem est uti</quote>. Cum ista per
+            <lb/>oppositionem se habeant, male ponitur unum in definitione alte<lb break="no"/>rius. — Respondeo: voluntas potentia per virtutes facilis fit
+            <pb n="16"/>
+            <lb/>ad opera, et hoc est <quote source="16, 8">aliquid assumere in facultatem</quote>.
+            <lb/>Et sicut est in via, in patria etiam, extenso nomine, in facul<lb break="no"/>tatem assumi potest, quia virtus est medium coniungens potentiam
+            <lb/>ad suum finem. Vel de beatitudine creata intelligitur, qua est
+            <lb/>uti cum gaudio.
+          </p>
+        </div>
+        <div n="18" type="textpart" subtype="paragraphus">
+          <p><lb/><quote type="lemma" source="16, 19">Haec sibi contradicere</quote>. <quote type="lemma" source="16, 20–21">Ibi plene</quote>. Contra,
+            <lb/><bibl>11 Iob<supplied reason="explanation">, 7</supplied></bibl>: <quote type="biblia">Forte,</quote> Glossa: <quote>Essentia Dei a nullo plene vide<lb break="no"/>bitur</quote>. — Respondeo: tripliciter est videre essentiam: per
+            <lb/>se, per speciem, per similitudinem. Primo modo videt solum
+            <lb/>Deus essentiam divinam; est enim <quote type="biblia">lux inaccessibilis</quote> . Lux autem
+            <lb/>dupliciter sumi potest: ut est in aere, vel ut est in sole. Ut est
+            <lb/>in sole, invisibilis est; ut est in aere, pati potest oculus eius
+            <lb/>aspectum. Sic divina essentia in se est invisibilis; ut autem in
+            <lb/>unoquoque nostrum per gloriam est, sic est visibilis, et hoc
+            <lb/>appellatur species. Vel potest videri per similitudinem quae est:
+            <lb/>creatura. Unde <bibl><name>Augustinus</name>, in I libro <title>De Trinitate</title></bibl>: <quote>Neces<lb break="no"/>saria est nobis dispensatio similitudinum <pb n="3r" ed="#E"/> ad hoc ut videamus
+              <lb/>Deum; quod non erit in patria.</quote> Unde in <bibl>Cant. 1<supplied reason="explanation">, 10</supplied></bibl>: <quote type="biblia">Murenulas
+              <lb/>aureas faciemus tibi vermiculatas argento</quote>.
+          </p>
+        </div>
+        <div n="19" type="textpart" subtype="paragraphus">
+          <p><lb/><quote type="lemma" source="16, 20">Proprie</quote>: contra communiter. <quote type="lemma" source="16, 20">Perfecte</quote>: contra j
+            <lb/>diminute. <quote type="lemma" source="16, 21">Plene</quote>: contra secundum partem. <mentioned>Improprie</mentioned>:
+            <lb/>sicut pecora dicuntur frui cibis. <mentioned>Diminute</mentioned>: ut in via, ubi est
+            <pb n="17"/><lb/>caritas inconsummata. <mentioned>Secundum partem</mentioned>: ut de fide et spe, quae
+            <lb/>secundum partes sunt <quote type="biblia">K</quote></p>
+        </div>
+        <div n="20" type="textpart" subtype="paragraphus">
+          <p><lb/><quote type="lemma" source="16, 25–26">Angeli illo fruentes sunt.</quote> Contra, in Canonica
+            <lb/>Petri legitur: <quote type="biblia">In quem desiderant angeli prospicere;</quote> ergo non
+            <lb/>prospiciunt. — Respondeo: in illis est desiderium continua<lb break="no"/>tionis rei habitae, non habendae.
+          </p>
+        </div>
+        <div n="21" type="textpart" subtype="paragraphus">
+          <p><lb/><quote type="lemma" source="16, 27">Per speculum, in aenigmate</quote>, <bibl>13 I Cor.<supplied reason="explanation">, 12</supplied></bibl>. Aenigma
+            <lb/>dicitur quoad illum qui est in tenebris: minus perspicaciter
+            <lb/>accipit lumen. Videns etiam rem per speculum, per remotius
+            <lb/>accipit, quia per similitudinem similitudinis. <pb n="2d" ed="#A"/> Unde contingit esse
+            <lb/>defectum, <pb n="156d" ed="#L"/> vel in vidente, ut secundum primum modum; vel in
+            <lb/>eo per quod, ut in speculo. Taliter intellectus noster: per pec<lb break="no"/>catum obscuratus est tenebris ignorantiae, et sic videt in aenig<lb break="no"/>mate. Ex parte defectus eius quo videre debet, videt in speculo.
+            <lb/>Ex parte visibilis, nullus est defectus.
+          </p>
+        </div>
+        <div n="22" type="textpart" subtype="paragraphus">
+          <p><lb/><quote type="lemma" source="17, 4">Deo debemus frui</quote>. Superius dictum est quod tres
+            <lb/>sunt res quibus fruendum. — Quod et solvit Dionysius, libro
+            <lb/><quote type="biblia">De divinis nominibus</quote>: <quote>Unus est Deus Pater, unus Filius, unus
+              <lb/>Spiritus Sanctus, per superexcellentem totius divinae unitatis
+              <lb/>impartibilitatem, in qua omnia singulariter connectuntur et super<lb break="no"/>uniuritur et omnia in ipsam iuste referuntur</quote>.
+          </p>
+        </div>
+        <div n="23" type="textpart" subtype="paragraphus">
+          <p><lb/>Item, quaeritur de Adam in statu innocentiae: aut dili<lb break="no"/>gebat Deum propter Deum, et sic fruebatur sicut viator; aut
+            <lb/>diligebat Deum propter aliud, et sic peccabat. — Respondeo:
+            <lb/>diligebat Deum propter se ut creatorem, quia, ut dicit Augu<lb break="no"/>stinus in secundo libro, habuit cognitionem rerum propter se
+            <lb/>factarum et cognovit Deum esse creatorem; cognitio autem causa
+            <lb/>est dilectionis. Sed ad frui ulterius exigitur ut Deus diligatur
+            <pb n="18"/>
+            <lb/>propter se ut creator, redemptor, glorificator, ut dilectio sequatur
+            <lb/>cognitionem fidei.
+          </p>
+        </div>
+        <div n="24" type="textpart" subtype="paragraphus">
+          <p><lb/><quote type="lemma" source="17, 17">Cum autem</quote>, et infra: <quote type="lemma" source="17, 24">spes consolatur.</quote><lb/>Contra: <bibl>13 Prov.<supplied reason="explanation">, 12</supplied></bibl>: <quote type="biblia">Spes quae differtur affligit animam.</quote> —
+            <lb/>Respondeo; spes eius quod debetur in praesenti, si statim
+            <lb/>desideratur, affligit; sed beatitudo non debetur in praesenti, nec
+            <lb/>haberi desideratur statim.
+          </p>
+        </div>
+        <div n="25" type="textpart" subtype="paragraphus">
+          <p><lb/><quote type="lemma" source="17, 24–25">In homine non est spes ponenda</quote>. Contra: <bibl>1 Ion.<supplied reason="explanation">, 6</supplied></bibl>:
+            <lb/><quote type="biblia">Accessit gubernator,</quote> Glossa: <quote>Naturale est homini in periculo
+              <lb/>magis de se confidere quam de alio</quote>. — Respondeo: quod
+            <lb/>hic dicitur, intelligitur de praemio aeterno; in Iona, de praemio
+            <lb/>temporali.
+          </p>
+        </div>
+        <div n="26" type="textpart" subtype="paragraphus">
+          <p><lb/><bibl>Ad Philem. 20</bibl>: Ego te fruar <quote type="lemma" source="17, 28–29">in Domino</quote>. Simile
+            <lb/><bibl>8 Eccli.<supplied reason="explanation">, 10</supplied></bibl>: <quote type="biblia">Fruere magnatis,</quote> Glossa: <quote>Scilicet praelatis</quote>,
+            <lb/>id est fructum ab eis exspectans. — <bibl><name>Augustinus</name>, libro <title>83
+                <lb/>Quaestionum</title>, 23</bibl>: <quote>Perfecta hominis ratio, quae virtus vocatur,
+              <lb/>utitur primo se ipsa ad intelligendum Deum, ut eo fruatur a
+              <lb/>quo facta est. Utitur etiam ceteris rationalibus animantibus ad
+              <lb/>societatem, irrationalibus ad eminentiam. Vitam etiam suam
+              <lb/>ad id refert, ut Deo fruatur. Ergo se ipsa utitur, quae profecto
+              <lb/>inchoat miseriam superbiae, si ad se ipsam, non ad Deum refe<lb break="no"/>ratur. Utitur etiam quibusdam corporibus vivificandis ad bene<lb break="no"/>ficentiam: sic enim utitur suo corpore; quibusdam assumendis
+              <lb/>vel respuendis ad valetudinem, quibusdam tolerandis ad patien<lb break="no"/>tiam, quibusdam ordinandis ad iustitiam, quibusdam conside<lb break="no"/>randis ad aliquod veritatis documentum. Utitur etiam <supplied reason="omitted">iis a</supplied>
+              <lb/>quibus se abstinet ad temperantiam</quote>.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

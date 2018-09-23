@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 1 [Bnf 16406 Transcription]</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 1 [Bnf 16406 Transcription]</title>
+          <date when="2018-09-23">September 23, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-wav3nd">Paris 16406</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-07-21" who="#JW" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#P" n="154-r"/><lb ed="#P" n="13"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="adh-l4d1">
+        <head xml:id="adh-l4d1-Hd1e96">Liber 4, Distinctio 1 [Bnf 16406 Transcription]</head>
+        <p xml:id="adh-l4d1-d1e99">
+          <quote xml:id="adh-l4d1-Qd1e101" source="http://scta.info/resource/pl-l4d1c1-d1e115">Samari<lb ed="#P"/>tanus</quote>, 
+          <quote xml:id="adh-l4d1-Qd1e106" source="http://scta.info/resource/pl-l4d1c1-d1e115">sacramentorum</quote> etc. sacramentum dicitur multipliciter scilicet large stricte et strictissime large dicuntur sacramenta 
+          <lb ed="#P"/>mors christi et resurrectio ut ad Romanos VI <quote xml:id="adh-l4d1-Qd1e111" ana="#rom6_4">consepulti in baptismo</quote> etc <pc type="#punctus"/> et dicuntur propter hoc sacramenta qui sacra 
+          <lb ed="#P"/>signata vel secreta ut effective dicuntur sacramenta quia ex virtute mortis et resurrectionis habent sacramenta 
+          <lb ed="#P"/>virtutem stricte dicuntur quae fuerunt veteris legis ut agnus paschalis et sanguis vitulae rufae et alia et 
+          <lb ed="#P"/>dicuntur signa futurorum et transeunt unde <sic>in hiis</sic> proprie dicitur signum huius sunt enim <sic>pernostica</sic> 
+          <lb ed="#P"/><del rend="expunctuation">et infinita</del> et imperfecta et quia non efficiebant quod significabant <pc type="#punctus"/> strictissime sacramenta novae legis quae 
+          <lb ed="#P"/>efficiunt quod figurant quae sunt signa et causae gratiae invisibilis ut habeatur
+        </p>
+          <!-- https://gallica.bnf.fr/ark:/12148/btv1b9066634p/f156.item.r=16406.zoom -->
+        
+      </div>
+    </body>
+  </text>
+</TEI>
